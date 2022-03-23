@@ -17,8 +17,9 @@ body {
 }
 
 .container {
-    max-width: 1200px;
+    max-width: 1150px;
     margin: 0 auto;
+    text-align: center;
 }
 
 a {
@@ -55,8 +56,26 @@ button {
     border: 1px solid black;
 }
 
+.bt-purple {
+    background-color: #8ea1e1;
+    color: white;
+    border: 1px solid #8ea1e1;
+}
+
+.bg-grey {
+    background-color: #f6f6f6;
+}
+
 section {
-    padding: 160px 0;
+    padding: 140px 0;
+}
+
+.big {
+    width: 100%;
+}
+
+i {
+    margin-right: 7px;
 }
 
 /* ----------
@@ -70,6 +89,10 @@ h1 {
 h2 {
     display: inline-block;
     font-size: 45px;
+}
+
+h3 {
+    font-size: 30px;
 }
 
 /* ----------
@@ -136,16 +159,12 @@ header .col-right {
     margin-bottom: 20px;
 }
 
-.hero i {
-    margin-right: 7px;
-}
-
 .container-hero button:first-of-type {
     margin-right: 40px;
 }
 
 /* ----------
-Other Section
+    Section
 ---------- */
 
 .cont-text {
@@ -155,8 +174,25 @@ Other Section
     padding-top: 35px;
 }
 
-.cont-text p{
+section p{
     padding-top: 25px;
-    font-size: 20px;
+    font-size: 19px;
     line-height: 28px;
+}
+
+.p-padding {
+    padding: 25px 10%;
+}
+
+.cont-stars {
+    background-image: url(../img/stars.svg);
+    padding: 50px 0;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 50%;
+    margin: auto;
+}
+
+button.bt-purple {
+    font-size: 30px;
 }
