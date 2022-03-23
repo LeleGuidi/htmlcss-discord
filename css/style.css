@@ -194,5 +194,25 @@ section p{
 }
 
 button.bt-purple {
-    font-size: 30px;
+    font-size: 25px;
+}
+
+/* ----------
+    Footer
+---------- */
+
+footer {
+    background-color: #23272a;
+    padding: 40px 0 ;
+}
+
+footer h3, footer span{
+    color: #8ea1e1;
+}
+
+.col-info {
+    min-width: 20%;
+    max-width: 20%;
+    margin: auto;
+    text-align: left;
 }
