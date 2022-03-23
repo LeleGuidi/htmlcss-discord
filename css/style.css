@@ -19,6 +19,12 @@ button {
     border: 1px solid white;
 }
 
+.bt-black {
+    background-color: black;
+    color: white;
+    border: 1px solid black;
+}
+
 body {
     font-family: 'Roboto', sans-serif;
 }
@@ -67,7 +73,7 @@ header {
 }
 
 header .container {
-padding: 30px;
+    padding: 30px;
 }
 
 header .container li a, header .container li{
@@ -87,10 +93,42 @@ header .container .col-middle {
 header .col-right, header .col-left {
     text-align: center;
     width: 12%;
-}
-
-header button {
-    display: inline-block;
     vertical-align: middle;
 }
 
+/* ----------
+    Hero
+---------- */
+
+.hero {
+    background-image: url(../img/jumbo.png);
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.container-hero {
+    max-width: 650px;
+    margin: 0 auto;
+    color: white;
+    text-align: center;
+    padding-top: 110px;
+    padding-bottom: 160px;
+}
+
+.hero h1 {
+    margin-bottom: 40px;
+}
+
+.hero p {
+    line-height: 25px;
+    margin-bottom: 20px;
+}
+
+.hero i {
+    margin-right: 7px;
+}
+
+.container-hero button:first-of-type {
+    margin-right: 40px;
+}
