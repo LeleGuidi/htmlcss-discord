@@ -12,19 +12,6 @@
     Common
 ---------- */
 
-button {
-    padding: 12px 20px;
-    border-radius: 30px;
-    background-color: white;
-    border: 1px solid white;
-}
-
-.bt-black {
-    background-color: black;
-    color: white;
-    border: 1px solid black;
-}
-
 body {
     font-family: 'Roboto', sans-serif;
 }
@@ -55,12 +42,34 @@ a {
     display: block;
 }
 
+button {
+    padding: 12px 20px;
+    border-radius: 30px;
+    background-color: white;
+    border: 1px solid white;
+}
+
+.bt-black {
+    background-color: black;
+    color: white;
+    border: 1px solid black;
+}
+
+section {
+    padding: 160px 0;
+}
+
 /* ----------
     Typo
 ---------- */
 
 h1 {
     font-size: 55px;
+}
+
+h2 {
+    display: inline-block;
+    font-size: 45px;
 }
 
 /* ----------
@@ -91,9 +100,12 @@ header .container .col-middle {
 }
 
 header .col-right, header .col-left {
-    text-align: center;
     width: 12%;
-    vertical-align: middle;
+    text-align: center;
+}
+
+header .col-right {
+    transform: translate(0, -12%);
 }
 
 /* ----------
@@ -105,6 +117,7 @@ header .col-right, header .col-left {
     width: 100%;
     background-size: cover;
     background-repeat: no-repeat;
+    padding-top: 110px;
 }
 
 .container-hero {
@@ -112,8 +125,6 @@ header .col-right, header .col-left {
     margin: 0 auto;
     color: white;
     text-align: center;
-    padding-top: 110px;
-    padding-bottom: 160px;
 }
 
 .hero h1 {
@@ -131,4 +142,21 @@ header .col-right, header .col-left {
 
 .container-hero button:first-of-type {
     margin-right: 40px;
+}
+
+/* ----------
+Other Section
+---------- */
+
+.cont-text {
+    max-width: 360px;
+    text-align: left;
+    vertical-align: middle;
+    padding-top: 35px;
+}
+
+.cont-text p{
+    padding-top: 25px;
+    font-size: 20px;
+    line-height: 28px;
 }
